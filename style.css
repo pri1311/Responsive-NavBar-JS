@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
 }
 
 nav{
@@ -10,11 +11,11 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: rgb(127, 255, 238);
+    background-color: black;
 }
 
 .logo{
-    color: rgb(255, 127, 202);
+    color:white;
     font-weight: bolder;
     letter-spacing: 5px;
     font-size: 20px;
@@ -28,7 +29,7 @@ nav{
 }
 
 .nav-links a{
-    color: rgb(255, 127, 202);
+    color: white;
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
@@ -42,7 +43,7 @@ nav{
 .burger div{
     width: 22px;
     height: 2px;
-    background-color: rgb(255, 127, 202);
+    background-color: white;
     margin: 5px;
     transition: all 1s ease;
 }
@@ -65,7 +66,7 @@ nav{
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background-color: rgb(127, 255, 238);
+        background-color: black;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -113,13 +114,13 @@ nav{
 
 .for {
     width: 20%;
-    border: 3px aquamarine solid;
+    border: 3px black;
     margin: 5px;
     float: left;
 }
 
 .to{
-    border: 3px aquamarine solid;
+    border: 3px black;
     width: auto;
     float: right;
     margin: 5px;
